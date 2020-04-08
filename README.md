@@ -24,20 +24,20 @@
     | message | string | 提示信息 |
     
     > data: 
+       
+     | 参数 | 类型 |  备注 |
+     | :-----| ----: | :----: |
+     | user | struct | 用户信息 |
+     | token | string | Token值 |
       
-      | 参数 | 类型 |  备注 |
-      | :-----| ----: | :----: |
-      | user | struct | 用户信息 |
-      | token | string | Token值 |
-      
-      user:
+     > user:
           
-      | 参数 | 类型 |  备注 |
-      | :-----| ----: | :----: |
-      | id | int | 用户ID |
-      | user_name | string | 用户名 |
-      | mobile | string | 用户电话 |
-      | head_portrait | string | 用户头像图片地址 |
+     | 参数 | 类型 |  备注 |
+     | :-----| ----: | :----: |
+     | id | int | 用户ID |
+     | user_name | string | 用户名 |
+     | mobile | string | 用户电话 |
+     | head_portrait | string | 用户头像图片地址 |
 
 ##### 以下接口需要 token 认证
 
