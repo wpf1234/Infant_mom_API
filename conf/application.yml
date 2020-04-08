@@ -1,0 +1,15 @@
+app:
+  mysql:
+    user: infant
+    password: hT87+UOvdTKLXrCrinhobA==
+    host: 127.0.0.1:3306
+    db: infant
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: hT87+UOvdTKLXrCrinhobA==
+    db: 2
+    pool: 10
+  log:
+    log_path: ./logs
+    log_file: appLog
