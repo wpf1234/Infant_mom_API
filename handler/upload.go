@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// 上传头像
 func (g *Gin) UploadImage(c *gin.Context) {
 	token := c.Request.Header.Get("token")
 	file, header, err := c.Request.FormFile("file")

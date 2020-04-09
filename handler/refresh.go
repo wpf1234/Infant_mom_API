@@ -8,8 +8,6 @@ import (
 	"time"
 )
 
-type Gin struct{}
-
 func (g *Gin) Refresh(c *gin.Context) {
 	token := c.Request.Header.Get("token")
 	claims, err := ParseToken(token)

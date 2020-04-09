@@ -6,6 +6,7 @@ type LoginReq struct {
 }
 
 type RegisterReq struct {
+	UserName string `json:"user_name"`
 	Phone    string `json:"phone"`
 	Password string `json:"password"`
 }
